@@ -12,3 +12,13 @@ Spring Data Rest demo project, to _play_ with [AWS Elastic Beanstalk](https://aw
 
 ## References
 - [Introduction to Spring Data Rest _(by Baeldung)_](https://www.baeldung.com/spring-data-rest-intro)
+- [Using .ebextensions to extend nginx default configuration in AWS Elastic Beanstalk _(by medium)_](https://medium.com/swlh/using-ebextensions-to-extend-nginx-default-configuration-in-aws-elastic-beanstalk-189b844ab6ad)
+- [Getting to Know and Love AWS Elastic Beanstalk Configuration Files (.ebextensions) _(by medium)_](https://medium.com/@marilu597/getting-to-know-and-love-aws-elastic-beanstalk-configuration-files-ebextensions-9a4502a26e3c)
+- [How to configure AWS Beanstalk NGINX requests to redirect http to https _(by pushcommit.com)_](https://www.pushcommit.com/configure-aws-beanstalk-nginx-requests-to-redirect-http-to-https/)
+- [Configuring the Proxy Server _(by docs.aws.amazon.com)_](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-platform-proxy.html)
+- [Cinfiguring the Reverse Proxy _(by docs.aws.amazon.com)_](https://docs.amazonaws.cn/en_us/elasticbeanstalk/latest/dg/go-nginx.html)
+
+## Steps
+- Build the distributable app with Maven _(.jar by default - .war if we want to have an specific nginx configu. file for AWS)_
+- Deploy the distribution following the appropriate AWS Elastic Beanstalk instructions _(this will create an AWS EC2 with some default config)_
+- Modify the `Security Groups\Inbound` assigned to the EC2 by adding the port exposed by the application  
