@@ -7,7 +7,7 @@
   <groupId>com.cartorgon</groupId>
   <artifactId>datarest-spring-boot-expl</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>datarest-spring-boot-expl</name>
   <description>Spring Data Rest demo project</description>
   

@@ -23,6 +23,8 @@ _(**Note**: test added on purpose to have better visibility of [AWS CodeBuild](h
 - [Configuring the Reverse Proxy _(by docs.aws.amazon.com)_](https://docs.amazonaws.cn/en_us/elasticbeanstalk/latest/dg/go-nginx.html)
 - [Spring Boot JUnit example with RestTemplate](https://howtodoinjava.com/spring-boot2/testing/spring-boot-junit-resttemplate/)
 - [Introduction to AWS CodeBuild](https://www.aws.training/Details/Video?id=16508)
+- [Building your CI/CD Pipeline on AWS](https://medium.com/@octoz/building-your-ci-cd-pipeline-on-aws-8189800e8c96)
+- [CodeDeploy Sample for CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/sample-codedeploy.html)
 
 ## Steps
 - Build the distributable app with Maven _(.jar by default - .war if we want to have an specific nginx configu. file for AWS)_
