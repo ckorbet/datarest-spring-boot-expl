@@ -1,4 +1,4 @@
-package com.cartorgon.drsbe.mode;
+package com.cartorgon.drsbe.model;
 
 public interface Beverage {
 	long getId();

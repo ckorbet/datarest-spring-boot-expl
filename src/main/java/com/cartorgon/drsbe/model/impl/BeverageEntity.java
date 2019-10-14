@@ -1,4 +1,4 @@
-package com.cartorgon.drsbe.mode.impl;
+package com.cartorgon.drsbe.model.impl;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 import org.springframework.validation.annotation.Validated;
 
-import com.cartorgon.drsbe.mode.Beverage;
+import com.cartorgon.drsbe.model.Beverage;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
