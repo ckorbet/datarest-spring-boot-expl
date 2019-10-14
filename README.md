@@ -1,7 +1,11 @@
 # datarest-spring-boot-expl
 
 ## Intro
-Spring Data Rest demo project, to _play_ with [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/?nc2=h_ql_prod_cp_ebs). 
+Spring Data Rest demo project, to _play_ with:
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/?nc2=h_ql_prod_cp_ebs)
+- [AWS CodeBuild](https://aws.amazon.com/codebuild/?nc=sn&loc=0)
+
+_(**Note**: test added on purpose to have better visibility of [AWS CodeBuild](https://aws.amazon.com/codebuild/?nc=sn&loc=0))_
 
 ## Fwks., Tools and Versions
 - Java 1.8 _(Not 11 due to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/?nc2=h_ql_prod_cp_ebs) compatibility)_
@@ -16,7 +20,9 @@ Spring Data Rest demo project, to _play_ with [AWS Elastic Beanstalk](https://aw
 - [Getting to Know and Love AWS Elastic Beanstalk Configuration Files (.ebextensions) _(by medium)_](https://medium.com/@marilu597/getting-to-know-and-love-aws-elastic-beanstalk-configuration-files-ebextensions-9a4502a26e3c)
 - [How to configure AWS Beanstalk NGINX requests to redirect http to https _(by pushcommit.com)_](https://www.pushcommit.com/configure-aws-beanstalk-nginx-requests-to-redirect-http-to-https/)
 - [Configuring the Proxy Server _(by docs.aws.amazon.com)_](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-platform-proxy.html)
-- [Cinfiguring the Reverse Proxy _(by docs.aws.amazon.com)_](https://docs.amazonaws.cn/en_us/elasticbeanstalk/latest/dg/go-nginx.html)
+- [Configuring the Reverse Proxy _(by docs.aws.amazon.com)_](https://docs.amazonaws.cn/en_us/elasticbeanstalk/latest/dg/go-nginx.html)
+- [Spring Boot JUnit example with RestTemplate](https://howtodoinjava.com/spring-boot2/testing/spring-boot-junit-resttemplate/)
+- [Introduction to AWS CodeBuild](https://www.aws.training/Details/Video?id=16508)
 
 ## Steps
 - Build the distributable app with Maven _(.jar by default - .war if we want to have an specific nginx configu. file for AWS)_
