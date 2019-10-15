@@ -6,14 +6,17 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      - echo Nothing to do in the pre_build phase...
+      - echo Nothing to do in the pre_build phase
   build:
     commands:
       - echo Build started on `date`
-      - mvn install
+      - mvn test 
   post_build:
     commands:
-      - echo Build completed on `date`
+      - mvn package
+      - echo Build completed on `date`      
 artifacts:
   files:
     - target/datarest-spring-boot-expl.jar
+    - appspec.yml
+  discard-paths: yes
