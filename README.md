@@ -26,7 +26,8 @@ _(**Note**: test added on purpose to have better visibility of [AWS CodeBuild](h
 - [Building your CI/CD Pipeline on AWS](https://medium.com/@octoz/building-your-ci-cd-pipeline-on-aws-8189800e8c96)
 - [CodeDeploy Sample for CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/sample-codedeploy.html)
 - [GitHub Pull Request and Webhook Filter Sample for CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/sample-github-pull-request.html)
-- [https://dzone.com/articles/micro-services-automation-deployment-using-aws-and](https://dzone.com/articles/micro-services-automation-deployment-using-aws-and)
+- [Microservices Automation Deployment Using AWS and Docker](https://dzone.com/articles/micro-services-automation-deployment-using-aws-and)
+- [Build Spec Example](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html#build-spec-ref-example)
 
 ## Steps
 - Build the distributable app with Maven _(.jar by default - .war if we want to have an specific nginx configu. file for AWS)_

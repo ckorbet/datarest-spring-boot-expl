@@ -6,14 +6,15 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      - echo Nothing to do in the pre_build phase
+      - echo Installing Maven...
+      - apt-get install -y maven
+      - mvn -version
   build:
     commands:
       - echo Build started on `date`
-      - mvn test 
+      - mvn package
   post_build:
     commands:
-      - mvn package
       - echo Build completed on `date`      
 artifacts:
   files:
